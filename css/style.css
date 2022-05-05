@@ -1,0 +1,121 @@
+@font-face {
+    font-family: IRANYekan;
+    src: url("/fonts/IRANYekanMedium.ttf") format("ttf")
+}
+
+:root {
+    --primary: #FFC120;
+    --black: #676767;
+    --gray: #B8B8B8;
+    --gray2:#F4F4F4;
+    --wihte: #fff;
+    --transition:all .4s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IRANYekan, sans-serif;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+html {
+    direction: rtl;
+}
+
+/*header*/
+
+#header {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.header .header-right {
+    display: flex;
+    align-items: center;
+
+
+}
+.header .header-right .navbar{
+    margin-right: 20px;
+}
+
+.header .header-right .navbar ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.header .header-right .navbar ul li a {
+    text-decoration: none;
+    color: var(--gray);
+    transition: var(--transition);
+}
+
+.header .header-right .navbar ul li a:hover {
+    text-decoration: none;
+    color: var(--black);
+    transition: var(--transition);
+}
+
+
+.header .header-left {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+
+.header .header-left a{
+    margin-right: 15px;
+    background: var(--gray2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 44px;
+    height: 44px;
+
+}
+
+/*slider*/
+
+#slider .banner-slider{
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+#slider .banner-slider img{
+    margin-top: 15px;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+/*banners*/
+
