@@ -1,230 +1,322 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TopCenter</title>
     <meta name="description" content="تاپ سنتر سایتی برای فروشگاه های حرفه ای">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
+
 <body>
 
-<section id="header">
-    <div class="container">
-        <div class="header">
-            <div class="header-right">
-                <div class="logo">
-                    <a href=""><img src="img/logo.png" alt="logo-top-center"></a>
+    <section id="header">
+        <div class="container">
+            <div class="header">
+                <div class="header-right wow slideInRight ">
+                    <div class="logo">
+                        <a href=""><img src="img/logo.png" alt="logo-top-center"></a>
+                    </div>
+                    <div class="navbar">
+                        <nav>
+                            <ul>
+                                <li><a href="">خانه</a></li>
+                                <li><a href="">لپ تاپ</a></li>
+                                <li><a href="">موبایل</a></li>
+                                <li><a href="">کنسول بازی</a></li>
+                                <li><a href="">ساعت هوشمند</a></li>
+                                <li><a href="">محصولات دیگر</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-                <div class="navbar">
-                    <nav>
-                        <ul>
-                            <li><a href="">خانه</a></li>
-                            <li><a href="">لپ تاپ</a></li>
-                            <li><a href="">موبایل</a></li>
-                            <li><a href="">کنسول بازی</a></li>
-                            <li><a href="">ساعت هوشمند</a></li>
-                            <li><a href="">محصولات دیگر</a></li>
-                        </ul>
-                    </nav>
+                <div class="header-left wow slideInLeft">
+                    <a href="">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.2134 14.4934C16.0801 14.4801 15.9201 14.4801 15.7734 14.4934C12.6001 14.3867 10.0801 11.7867 10.0801 8.58675C10.0801 5.32008 12.7201 2.66675 16.0001 2.66675C19.2667 2.66675 21.9201 5.32008 21.9201 8.58675C21.9067 11.7867 19.3867 14.3867 16.2134 14.4934Z"
+                                stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.54659 19.4133C6.31992 21.5733 6.31992 25.0933 9.54659 27.2399C13.2133 29.6933 19.2266 29.6933 22.8933 27.2399C26.1199 25.0799 26.1199 21.5599 22.8933 19.4133C19.2399 16.9733 13.2266 16.9733 9.54659 19.4133Z"
+                                stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.3333 28.0001C22.3289 28.0001 28 22.329 28 15.3334C28 8.33781 22.3289 2.66675 15.3333 2.66675C8.33769 2.66675 2.66663 8.33781 2.66663 15.3334C2.66663 22.329 8.33769 28.0001 15.3333 28.0001Z"
+                                stroke="#676767" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M29.3333 29.3334L26.6666 26.6667" stroke="#676767" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.2 8.66675H20.8C25.3334 8.66675 25.7867 10.7867 26.0934 13.3734L27.2934 23.3734C27.68 26.6534 26.6667 29.3334 22 29.3334H10.0134C5.33337 29.3334 4.32003 26.6534 4.72003 23.3734L5.92004 13.3734C6.21338 10.7867 6.6667 8.66675 11.2 8.66675Z"
+                                stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M10.6666 10.6667V6.00008C10.6666 4.00008 12 2.66675 14 2.66675H18C20 2.66675 21.3333 4.00008 21.3333 6.00008V10.6667"
+                                stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M27.2133 22.7068H10.6666" stroke="#B8B8B8" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </a>
                 </div>
             </div>
-            <div class="header-left">
-                <a href="">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                         xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16.2134 14.4934C16.0801 14.4801 15.9201 14.4801 15.7734 14.4934C12.6001 14.3867 10.0801 11.7867 10.0801 8.58675C10.0801 5.32008 12.7201 2.66675 16.0001 2.66675C19.2667 2.66675 21.9201 5.32008 21.9201 8.58675C21.9067 11.7867 19.3867 14.3867 16.2134 14.4934Z"
-                              stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M9.54659 19.4133C6.31992 21.5733 6.31992 25.0933 9.54659 27.2399C13.2133 29.6933 19.2266 29.6933 22.8933 27.2399C26.1199 25.0799 26.1199 21.5599 22.8933 19.4133C19.2399 16.9733 13.2266 16.9733 9.54659 19.4133Z"
-                              stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </div>
+
+
+    </section>
+
+    <section id="slider">
+        <div class="container">
+            <div class="banner-slider">
+                <a href="https://siteteme.ir"><img src="/img/banner-slider.jpg" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="banner ">
+        <div class="container">
+            <div class="banners">
+                <a class="wow bounceInUp data-wow-duration='2s' data-wow-delay='3s'  " href=""><img
+                        src="/img/banner04.png" alt=""></a>
+                <a class="wow bounceInUp data-wow-duration='4s' data-wow-delay='5s'" href=""><img
+                        src="/img/banner01.png" alt=""></a>
+                <a class="wow bounceInUp data-wow-duration='6s' data-wow-delay='6s' " href=""><img
+                        src="/img/banner02.png" alt=""></a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="attributes">
+        <div class="container">
+            <div class="attributes">
+                <div class="attributes-item wow bounceInUp data-wow-duration='2s' data-wow-delay='3s'">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                     </svg>
-                </a>
-                <a href="">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                         xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15.3333 28.0001C22.3289 28.0001 28 22.329 28 15.3334C28 8.33781 22.3289 2.66675 15.3333 2.66675C8.33769 2.66675 2.66663 8.33781 2.66663 15.3334C2.66663 22.329 8.33769 28.0001 15.3333 28.0001Z"
-                              stroke="#676767" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M29.3333 29.3334L26.6666 26.6667" stroke="#676767" stroke-width="2"
-                              stroke-linecap="round" stroke-linejoin="round"/>
+                    <h2>تضمین اصالت کالا</h2>
+                </div>
+                <div class="attributes-item wow bounceInUp data-wow-duration='2s' data-wow-delay='3s'">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M13 7H7v6h6V7z" />
+                        <path fill-rule="evenodd"
+                            d="M7 2a1 1 0 012 0v1h2V2a1 1 0 112 0v1h2a2 2 0 012 2v2h1a1 1 0 110 2h-1v2h1a1 1 0 110 2h-1v2a2 2 0 01-2 2h-2v1a1 1 0 11-2 0v-1H9v1a1 1 0 11-2 0v-1H5a2 2 0 01-2-2v-2H2a1 1 0 110-2h1V9H2a1 1 0 010-2h1V5a2 2 0 012-2h2V2zM5 5h10v10H5V5z"
+                            clip-rule="evenodd" />
                     </svg>
-                </a>
-                <a href="">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                         xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.2 8.66675H20.8C25.3334 8.66675 25.7867 10.7867 26.0934 13.3734L27.2934 23.3734C27.68 26.6534 26.6667 29.3334 22 29.3334H10.0134C5.33337 29.3334 4.32003 26.6534 4.72003 23.3734L5.92004 13.3734C6.21338 10.7867 6.6667 8.66675 11.2 8.66675Z"
-                              stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M10.6666 10.6667V6.00008C10.6666 4.00008 12 2.66675 14 2.66675H18C20 2.66675 21.3333 4.00008 21.3333 6.00008V10.6667"
-                              stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M27.2133 22.7068H10.6666" stroke="#B8B8B8" stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"/>
+                    <h2>مقایسه کالا</h2>
+                </div>
+                <div class="attributes-item wow bounceInUp data-wow-duration='2s' data-wow-delay='3s'">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
-                </a>
-            </div>
-        </div>
-    </div>
-
-
-</section>
-
-<section id="slider">
-    <div class="container">
-        <div class="banner-slider">
-            <a href="https://siteteme.ir"><img src="/img/banner-slider.jpg" alt=""></a>
-        </div>
-    </div>
-</section>
-
-
-<section id="banner">
-    <div class="container">
-        <div class="banners">
-            <a href=""><img src="/img/banner04.png" alt=""></a>
-            <a href=""><img src="/img/banner01.png" alt=""></a>
-            <a href=""><img src="/img/banner02.png" alt=""></a>
-
-        </div>
-    </div>
-</section>
-
-
-<section id="attributes">
-    <div class="container">
-        <div class="attributes">
-            <div class="attributes-item">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                     stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                          d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
-                </svg>
-                <h2>تضمین اصالت کالا</h2>
-            </div>
-            <div class="attributes-item">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                    <path d="M13 7H7v6h6V7z"/>
-                    <path fill-rule="evenodd"
-                          d="M7 2a1 1 0 012 0v1h2V2a1 1 0 112 0v1h2a2 2 0 012 2v2h1a1 1 0 110 2h-1v2h1a1 1 0 110 2h-1v2a2 2 0 01-2 2h-2v1a1 1 0 11-2 0v-1H9v1a1 1 0 11-2 0v-1H5a2 2 0 01-2-2v-2H2a1 1 0 110-2h1V9H2a1 1 0 010-2h1V5a2 2 0 012-2h2V2zM5 5h10v10H5V5z"
-                          clip-rule="evenodd"/>
-                </svg>
-                <h2>مقایسه کالا</h2>
-            </div>
-            <div class="attributes-item">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                     stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                </svg>
-                <h2>۷ روز ضمانت بازگشت</h2>
-            </div>
-            <div class="attributes-item">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                     stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                          d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
-                </svg>
-                <h2>خرید اقساطی</h2>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-
-<section id="banner-headset">
-    <div class="container">
-        <div class="banner-headset">
-            <a href=""><img src="/img/banner05.png" alt=""></a>
-
-        </div>
-    </div>
-</section>
-
-
-<section id="Recommended-products">
-    <div class="container">
-        <div class="Recommended-products">
-            <div class="Recommended-products-title">
-                <a href=""><h2>محصولات پیشنهادی</h2></a>
-            </div>
-            <div class="Recommended-products-items">
-                <div class="Recommended-products-item">
-                    <img src="/img/pro02.png" alt="">
-                    <div class="Recommended-products-item-details">
-                        <a class="name-category" href="">هدفون</a>
-                        <a class="show-product" href="">مشاهده محصول</a>
-                    </div>
+                    <h2>۷ روز ضمانت بازگشت</h2>
                 </div>
-                <div class="Recommended-products-item">
-                    <img src="/img/pro01.png" alt="">
-                    <div class="Recommended-products-item-details">
-                        <a class="name-category" href="">موبایل</a>
-                        <a class="show-product" href="">مشاهده محصول</a>
-                    </div>
+                <div class="attributes-item wow bounceInUp data-wow-duration='2s' data-wow-delay='3s'">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                    </svg>
+                    <h2>خرید اقساطی</h2>
                 </div>
-                <div class="Recommended-products-item">
-                    <img src="/img/pro03.png" alt="">
-                    <div class="Recommended-products-item-details">
-                        <a class="name-category" href="">ساعت</a>
-                        <a class="show-product" href="">مشاهده محصول</a>
-                    </div>
-                </div>
-                <div class="Recommended-products-item">
-                    <img src="/img/pro04.png" alt="">
-                    <div class="Recommended-products-item-details">
-                        <a class="name-category" href="">لپ تاپ</a>
-                        <a class="show-product" href="">مشاهده محصول</a>
-                    </div>
-                </div>
-                <div class="Recommended-products-item">
-                    <img src="/img/pro05.png" alt="">
-                    <div class="Recommended-products-item-details">
-                        <a class="name-category" href="">کیبورد</a>
-                        <a class="show-product" href="">مشاهده محصول</a>
-                    </div>
-                </div>
-                <div class="Recommended-products-item">
-                    <img src="/img/pro01.png" alt="">
-                    <div class="Recommended-products-item-details">
-                        <a class="name-category" href="">موبایل</a>
-                        <a class="show-product" href="">مشاهده محصول</a>
-                    </div>
-                </div>
-                <div class="Recommended-products-item">
-                    <img src="/img/pro01.png" alt="">
-                    <div class="Recommended-products-item-details">
-                        <a class="name-category" href="">موبایل</a>
-                        <a class="show-product" href="">مشاهده محصول</a>
-                    </div>
-                </div>
-                <div class="Recommended-products-item">
-                    <img src="/img/pro01.png" alt="">
-                    <div class="Recommended-products-item-details">
-                        <a class="name-category" href="">موبایل</a>
-                        <a class="show-product" href="">مشاهده محصول</a>
-                    </div>
-                </div>
-            </div>
-            <div class="Recommended-products-more">
-                <a href="">مشاهده همه</a>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-                </svg>
             </div>
         </div>
 
-    </div>
-</section>
+    </section>
 
 
+    <section id="banner-headset">
+        <div class="container">
+            <div class="banner-headset">
+                <a href=""><img src="/img/banner05.png" alt=""></a>
 
-<section id="apple-watch">
-    <div class="container">
-        <div class="apple-watch">
-            <a href=""><img src="/img/baner03.png" alt="apple-watch"></a>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
+
+    <section id="Recommended-products">
+        <div class="container">
+            <div class="Recommended-products">
+                <div class="Recommended-products-title">
+                    <a href="">
+                        <h2>محصولات پیشنهادی</h2>
+                    </a>
+                </div>
+                <div class="Recommended-products-items">
+
+                    <div class="Recommended-products-item">
+                        <img src="/img/pro02.png" alt="">
+                        <div class="Recommended-products-item-details">
+                            <a class="name-category" href="">هدفون</a>
+                            <a class="show-product" href="">مشاهده محصول</a>
+                        </div>
+                    </div>
+                    <div class="Recommended-products-item">
+                        <img src="/img/pro01.png" alt="">
+                        <div class="Recommended-products-item-details">
+                            <a class="name-category" href="">موبایل</a>
+                            <a class="show-product" href="">مشاهده محصول</a>
+                        </div>
+                    </div>
+                    <div class="Recommended-products-item ">
+                        <img src="/img/pro03.png" alt="">
+                        <div class="Recommended-products-item-details">
+                            <a class="name-category" href="">ساعت</a>
+                            <a class="show-product" href="">مشاهده محصول</a>
+                        </div>
+                    </div>
+                    <div class="Recommended-products-item ">
+                        <img src="/img/pro04.png" alt="">
+                        <div class="Recommended-products-item-details">
+                            <a class="name-category" href="">لپ تاپ</a>
+                            <a class="show-product" href="">مشاهده محصول</a>
+                        </div>
+                    </div>
+                    <div class="Recommended-products-item">
+                        <img src="/img/pro01.png" alt="">
+                        <div class="Recommended-products-item-details">
+                            <a class="name-category" href="">موبایل</a>
+                            <a class="show-product" href="">مشاهده محصول</a>
+                        </div>
+                    </div>
+                    <div class="Recommended-products-item">
+                        <img src="/img/pro01.png" alt="">
+                        <div class="Recommended-products-item-details">
+                            <a class="name-category" href="">موبایل</a>
+                            <a class="show-product" href="">مشاهده محصول</a>
+                        </div>
+                    </div>
+                    <div class="Recommended-products-item ">
+                        <img src="/img/pro05.png" alt="">
+                        <div class="Recommended-products-item-details">
+                            <a class="name-category" href="">کیبورد</a>
+                            <a class="show-product" href="">مشاهده محصول</a>
+                        </div>
+                    </div>
+                    <div class="Recommended-products-item  data-wow-duration='2s'">
+                        <img src="/img/pro01.png" alt="">
+                        <div class="Recommended-products-item-details">
+                            <a class="name-category" href="">موبایل</a>
+                            <a class="show-product" href="">مشاهده محصول</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="Recommended-products-more">
+                    <a href="">مشاهده همه</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="apple-watch">
+        <div class="container">
+            <div class="apple-watch">
+                <a href=""><img src="/img/baner03.png" alt="apple-watch"></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="brands">
+        <div class="container">
+            <div class="baners">
+                <div class="baner-item">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="/img/Lenovo.png" alt="" width="140"></div>
+                            <div class="swiper-slide"><img src="/img/Lenovo.png" alt="" width="140"></div>
+                            <div class="swiper-slide"><img src="/img/Lenovo.png" alt="" width="140"></div>
+                            <div class="swiper-slide"><img src="/img/Lenovo.png" alt="" width="140"></div>
+                            <div class="swiper-slide"><img src="/img/Lenovo.png" alt="" width="140"></div>
+                            <div class="swiper-slide"><img src="/img/Lenovo.png" alt="" width="140"></div>
+                            <div class="swiper-slide"><img src="/img/Lenovo.png" alt="" width="140"></div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="/js/wow.js"></script>
+    <script src="/js/wow.min.js"></script>
+
+    <script>
+        var wow = new WOW({
+            boxClass: 'wow', // animated element css class (default is wow)
+            animateClass: 'animated', // animation css class (default is animated)
+            offset: 0, // distance to the element when triggering the animation (default is 0)
+            mobile: true, // trigger animations on mobile devices (default is true)
+            live: true, // act on asynchronously loaded content (default is true)
+            callback: function (box) {
+                // the callback is fired every time an animation is started
+                // the argument that is passed in is the DOM node being animated
+            },
+            scrollContainer: null, // optional scroll container selector, otherwise use window,
+            resetAnimation: true, // reset animation on end (default is true)
+        });
+        wow.init();
+    </script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+
+            loop: true,
+            slidesPerView: 4,
+            spaceBetween: 60,
+            autoplay: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+        });
+    </script>
 </body>
+
 </html>
+
